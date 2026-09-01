@@ -1,0 +1,19 @@
+name: phosphosite-svm
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.11
+  - pandas
+  - numpy
+  - scipy
+  - scikit-learn
+  - joblib
+  - requests
+  - openpyxl
+  - tqdm
+  - pytorch
+  - pip
+  - pip:
+      - transformers
+      - mlflow
